@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="UTF-8">
@@ -128,7 +128,170 @@
 
 
   <!-- main section -->
-  <main class="w-11/12  mx-auto"></main>
+  <main class="w-11/12  mx-auto mt-12">
+
+    <!-- fruits section -->
+    <section>
+      <duv class="grid grid-cols-2 grid-row-2 md:grid md:grid-cols-5 gap-5 mx-auto lg:ml-28 ">
+
+        <!-- cart 1 -->
+        <div class="mx-auto p-5">
+          <img src="images/fruit1.png" alt="" srcset="">
+          <p class="ml-8 text-2xl font-bold">Grapes</p>
+        </div>
+        <!-- cart 2 -->
+        <div class="mx-auto p-5">
+          <img src="images/fruit2.png" alt="" srcset="">
+          <p class="ml-8 text-2xl font-bold">Orange</p>
+        </div>
+        <!-- cart 3 -->
+        <div class="mx-auto p-5">
+          <img src="images/fruit3.png" alt="" srcset="">
+          <p class="ml-8 text-2xl font-bold">Mango</p>
+        </div>
+        <!-- cart 4 -->
+        <div class="mx-auto p-5">
+          <img src="images/fruit4.png" alt="" srcset="">
+          <p class="ml-6 text-2xl font-bold">Strawberry</p>
+        </div>
+
+
+
+      </duv>
+    </section>
+
+    <!-- title and time section -->
+    <section class=" mx-auto mt-12">
+      <div class="md:flex md:justify-between space-y-10 ">
+        <!-- text -->
+        <div class="md:w-6/12 mx-auto">
+          <h1 class="text-3xl lg:text-4xl font-bold">Deal of the day</h1>
+          <p class="texl-lg font-medium mt-5">Contrary to popular belief, is not simply random text. It has roots in a
+            piece
+            of classical Latin
+            literature from 45 BC,
+            making it over 2000 years old.</p>
+        </div>
+        <!-- time -->
+        <div class="mx-auto">
+          <div class="grid auto-cols-max grid-flow-col gap-5 text-center">
+            <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>
+              </span>
+              days
+            </div>
+            <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span>
+              </span>
+              hours
+            </div>
+            <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span>
+              </span>
+              min
+            </div>
+            <div class="bg-neutral rounded-box text-neutral-content flex flex-col p-2">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:${counter};"></span>
+              </span>
+              sec
+            </div>
+          </div>
+        </div>
+
+
+    </section>
+
+    <!-- fruits card section -->
+    <section class="mx-auto mt-12">
+
+      <div class="grid grid-cols-2 grid-row-3 lg:grid-cols-4 gap-5">
+
+        <!-- cart-1 -->
+        <div class="card bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="images/fruit6.png" alt="fruits" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <p>Apple</p>
+            <div class="flex items-center mt-3">
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-regular fa-star text-orange-500"></i>
+            </div>
+            <div class="card-actions">
+              <button class="btn bg-bg-color text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- cart-2 -->
+        <div class="card bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="images/fruit7.png" alt="fruits" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <p>Orange</p>
+            <div class="flex items-center mt-3">
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-regular fa-star text-orange-500"></i>
+            </div>
+            <div class="card-actions">
+              <button class="btn bg-bg-color text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- cart-3 -->
+        <div class="card bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="images/fruit8.png" alt="fruits" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <p>Red Dragon</p>
+            <div class="flex items-center mt-3">
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-regular fa-star text-orange-500"></i>
+            </div>
+            <div class="card-actions">
+              <button class="btn bg-bg-color text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- cart-4 -->
+        <div class="card bg-base-100 shadow-xl">
+          <figure class="px-10 pt-10">
+            <img src="images/fruit9.png" alt="fruits" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <p>Banana</p>
+            <div class="flex items-center mt-3">
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-solid fa-star text-orange-500"></i>
+              <i class="fa-regular fa-star text-orange-500"></i>
+            </div>
+            <div class="card-actions">
+              <button class="btn bg-bg-color text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+  </main>
 
 
   <!-- Footer section -->
